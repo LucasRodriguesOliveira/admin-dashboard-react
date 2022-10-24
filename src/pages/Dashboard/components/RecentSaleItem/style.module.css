@@ -1,0 +1,34 @@
+.item {
+  font-size: 18px;
+  text-align: center;
+}
+
+.total {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.saleStatus {
+  font-weight: bold;
+}
+
+.delivered {
+  background-color: #74D788;
+  color: #219512;
+}
+
+.pending {
+  background-color: #fdfa33;
+  color: #747204;
+}
+
+.returned {
+  background-color: tomato;
+  color: #7a0707;
+}
+
+.refunded {
+  background-color: #fd9c42;
+  color: #964800
+}

@@ -1,0 +1,83 @@
+.card {
+  width: calc(100% / 4 - 15px);
+  background-color: #FFF;
+  color: #3D3D3D;
+  padding: 20px;
+  border-radius: 12px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.15);
+}
+
+.title {
+  font-size: 20px;
+  font-weight: bold;
+  padding: 5px;
+  color: #030b1a;
+}
+
+.value {
+  font-size: 36px;
+  font-weight: bold;
+  margin-top: -5px;
+  display: inline-block;
+  padding: 10px;
+}
+
+.indicator {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+}
+
+.indicator svg {
+  height: 20px;
+  width: 20px;
+  line-height: 20px;
+  text-align: center;
+  color: #FDFDFD;
+  border-radius: 50%;
+  font-size: 20px;
+  margin-right: 5px;
+}
+
+.indicator-description {
+  font-size: 14px;
+  font-style: italic;
+  color: #2c87a5;
+}
+
+.blue {
+  --theme: #66B0FF;
+
+  background-color: #DCE5FF;
+  color: var(--theme);
+}
+
+.green {
+  --theme: #2BD47D;
+
+  background-color: #D0F2D8;
+  color: var(--theme);
+}
+
+.yellow {
+  --theme: #FFC233;
+
+  background-color: #ffeAD3;
+  color: var(--theme);
+}
+
+.red {
+  --theme: #E05260;
+
+  background-color: #F7D4D7;
+  color: var(--theme);
+}
+
+:is(.blue, .green, .yellow, .red) svg {
+  background-color: var(--theme);
+}

@@ -1,0 +1,16 @@
+.button {
+  display: flex;
+  align-items: center;
+  font-size: 24px;
+  font-weight: 600;
+}
+
+.icon {
+  font-size: 35px;
+  margin-right: 10px;
+  cursor: pointer;
+}
+
+.text {
+  color: #3A5588;
+}
